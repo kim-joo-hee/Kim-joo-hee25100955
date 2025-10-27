@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>점자블럭</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet">
+	<style>
+ @font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Pretendard-Black';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: bold;
+}
+html {
+  font-family: 'Pretendard-Regular', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 430;
+  font-size: 16px;
+  word-break: keep-all;
+  line-height: 1.7;
+}
+	body {margin: 0;}
+
+
+
+img {
+  display: block;       
+  width: 100%;          
+  height: auto;         
+  border-radius: 8px;   
+  margin: 1rem 0;       
+}
+
+
+header {
+  background: blue;
+  color: yellow;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.wrap{
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+  position: relative;
+}
+
+body {
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Pretendard-Black', 'Noto Sans KR', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Pretendard-Black', 'Noto Sans KR', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: blue;
+}
+
+p {
+font-weight: 430;
+  font-size: 16px;
+  word-break: keep-all;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+footer{
+  padding-top: 200pxpx;
+  padding-bottom: 200px}
+section{
+  padding-top: 135px;
+  padding-bottom: 135px}
+footer{padding-block: 100px;}
+.left-spacing{padding-left: 150px;}
+.right-spacing{padding-right: 150px;}
+.center-spacing{padding-left: 100px;padding-right:
+100px; text-align: center;}
+
+header{
+  padding-bottom: 300px;
+  padding-top: 300px;
+}
+/* 섹션별 배경색 정의 */
+    .section-color-1, .section-color-6 {
+        background-color: #f7f7f7; /* 연한 회색 (밝은 섹션) */
+        color: #333; /* 기본 텍스트 색상 */
+    }
+    
+    /* 4번째 섹션: 흰색 배경, 검정 텍스트 */
+    .section-color-4 {
+        background-color: #ffffff; /* 흰색 배경 */
+        color: #333; /* 검정 본문 텍스트 유지 */
+    }
+
+    /* 2, 3, 5번째 섹션 스타일: 검정 배경, 흰색 텍스트 */
+    .section-color-2, .section-color-3, .section-color-5 {
+        background-color: #000000; /* 검정 배경 적용 */
+        color: #ffffff; /* 본문 텍스트를 흰색으로 변경 */
+    }
+
+    /* 검정 배경 섹션(2, 3, 5)의 제목(h) 색상을 노란색으로 변경 */
+    .section-color-2 h2, .section-color-2 h3, .section-color-2 h4, .section-color-2 h5, .section-color-2 h6,
+    .section-color-3 h2, .section-color-3 h3, .section-color-3 h4, .section-color-3 h5, .section-color-3 h6,
+    .section-color-5 h2, .section-color-5 h3, .section-color-5 h4, .section-color-5 h5, .section-color-5 h6 {
+        color: yellow; /* 노란색으로 변경 */
+    }
+    .a-bg{background:url(a-bg.png);
+      background-attachment: fixed;
+      background-size: cover; }
+    .a-black{background: black;}  
+    .c{background: yellow;}
+    .b{background: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDJtc2I1aDQ4aG0xeHNjdmJ3MXFxOTh3dHp3M3VyODM5NnNzZ2Q0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tHIRLHtNwxpjIFqPdV/giphy.gif);
+      background-attachment: fixed;
+      background-size: 40px auto;} 
+      .flex{display: flex; justify-content: space-between;}
+      ul{padding: 0px; margin: 0px}
+      ul,li{list-style: none;}
+      ul li a{text-decoration: none;
+              display: block;
+              padding: 50px 12px;
+              color: white;}
+ul li a:hover{background: white; color: black;
+              transition: all 1s;}
+             h1{text-shadow: 0px 0px 4px white;
+              animation: glow 4s infinitalternate cubic-bezier(0.76, 0,
+0.16,
+1)}
+            /*css animation*/
+            @keyframes glow{
+              from{text-shadow: 0px 0px 0px white;}
+            to{text-shadow: 0px 0px 0px white;}
+          }
+          .big {
+    font-family: 'Pretendard-Black', 'Noto Sans KR', sans-serif;
+    font-size: 9rem; 
+    color: blue;
+    position: relative;
+    /* 오류 수정: 세미콜론으로 분리해야 합니다. */
+    left: -19px; 
+    top: 129px ;
+    line-height: 150px;
+}
+  }
+	</style>
+
+  </head>
+  <body>
+    <nav class="a-black">
+      <div class="wrap flex">
+       <div class="logo">
+         <h1 class=c >점자블럭</h1>
+       </div>  
+       <ul class="flex a-black">
+         <li><a href="#">점자블럭</a></li>
+         <li><a href="#">안보이는 거 아님?</a></li>
+         <li><a href="#">점자블럭 색</a></li>
+         <li><a href="#">김모</a></li>
+         <li><a href="#">기능을 잃은 디자인</a></li>
+         <li><a href="#">마무리</a></li>
+       </ul>
+    </div>
+    </nav>
+
+<header class="a-bg">
+ <div class="wrap">
+	<h1 class="center-spacing a-black">노란 보도블럭 <br>꼭 노란색 이어야해?</h1>
+    </div>
+</header>
+
+<section class="section-color-1">
+    <div class="wrap">
+
+    <img src="1.png">
+<h2 class="left-spacing">점자블럭</h2>
+<P class="left-spacing">노란 보도 블럭의 진짜 이름은 점자블럭 입니다.
+
+시각장애인 안내 블록의 역할을 합니다.<p/>
+	  </div>
+    <div class="big wrap">Braille block</div>
+	</section>
+
+<section class="section-color-2">
+  <div class="wrap">
+      <img src="aa.jpg.png">
+      <h3 class="right-spacing">시각 장애인? 
+아예 안보이는 거 아님?</h3>
+      <p class="right-spacing">보통 시력이 아예 안보이는 맹인을 생각 하겠지만 시각 장애인들은 대부분 빛과 색을 구분할 정도로 시력이 남아있는 사람들입니다.</p>
+  </div>
+</section>
+
+<section class="section-color-3">
+    <div class="wrap">
+
+      <img src="2.png">
+	<h4 class="center-spacing">어떤 도시는 ‘예쁘지 않다’며  점자블럭 색을 바꿨다구?</h4>
+	<P class="center-spacing">시각장애인의 보행을 돕는 점자블록을 인도 보도블록과 같은 회색 점자블록으로 설치해 시각장애인들에게 위험을 안겨주고 있습니다.<p/>
+  </div>
+</section>
+
+<section class="section-color-4">
+    <div class="wrap">
+
+          <img src="3.png">
+	<h5 class="left-spacing">시각장애인 김모씨</h5>
+		<P class="left-spacing">“길을 걷다가 노란 띠처럼 생긴 점자블록이 흐릿하게나마 보이면 횡단보도 앞 이거나 장애물이 있다는 것을 알고 멈춥니다.”<p/>
+  </div>
+</section>
+
+
+<section class="section-color-5">
+    <div class="wrap">
+        <img src="4.png">
+	<h6 class="right-spacing">회색 보도블록은 ‘기능’을 잃은 디자인</h6>
+	<P class="right-spacing">회색 블록은 저시력자의 눈에 거의 보이지 않습니다. 결국 ‘배려’로 만들어진 시스템이 무관심으로 인해 장애물이 되어버린 것입니다.<p/>
+  </div>
+</section>
+<section class="section-color-6 b" >
+    <div class="wrap">
+   <img src="5.png">
+<h6 class="center-spacing c">노란보도 블럭 
+꼭 노랑색 이어야해?</h6>
+<p class="center-spacing c">노란색을 없앤 순간 누군가의 시선을 배려하지 않은 도시가 됩니다. 점자블럭의 색은 단순한 장식이 아니라사용자의 안전을 설계한 의사소통의 도구 입니다.</p>
+	  </div>
+</section>
+
+<footer>
+	<p class="center-spacing">
+		시각디자인과 25100955 김주희
+	</p>
+</footer>
+</body>
+</html>
